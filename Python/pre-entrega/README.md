@@ -2,7 +2,44 @@
 
  Este proyecto es una aplicación de consola escrita en Python que permite gestionar productos de forma sencilla. Ideal para paracticar estructuras de datos, bucles, condicionales y validaciones.
 
-## 📦 Funcionalidades:
+## 📋 Requisitos de la actividad
+
+La consigna solicitaba implementar las siguientes funcionalidades:
+
+- Ingreso de productos con nombre, categoría y precio (sin centavos)
+- Visualización numerada de los productos registrados
+- Búsqueda por nombre con coincidencias parciales
+- Eliminación de productos por número de posición
+- Validación de entradas
+- Uso de listas, bucles `while` y `for`, y condicionales
+- Menú interactivo que se repite hasta elegir "Salir"
+
+📸 A continuación se muestran las capturas que guiaron esta entrega:
+
+### 🧾 Requisitos generales
+
+![Requisitos generales](assets/04_requisitos.png)
+
+### 📌 Requerimientos específicos — Parte 1
+
+![Requerimientos parte 1](assets/02_requerimientos_1.png)
+
+### 📌 Requerimientos específicos — Parte 2
+
+![Requerimientos parte 1](assets/03_requerimientos_2.png)
+
+### 🧪 Ejercicio planteado
+
+![Ejercicio enunciado](assets/01_ejercicio_enunciado.png)
+
+### 💡 Consejos del docente
+
+![Consejos del docente](assets/05_consejos.png)
+
+---
+
+
+## 📦 Funcionalidades implementadas:
 
 - **Agregar producto** : Ingresar nombre,categoria y precio (sin centavos.).
 - **Mostrar productos**: Visualizar todos los productos registrados, numerados (ID) y ordenados.
@@ -40,12 +77,23 @@ pip install colorama
 ```python
 Talento_Tech/Python/pre-entrega
 │
-├── main.py               # Punto de entrada: menú principal y flujo general
-├── producto.py           # Funciones para agregar, mostrar, buscar y eliminar productos
-├── utils.py              # Validaciones y funciones auxiliares (opcional)
-├── README.md             # Documentación del proyecto
-└── data/                 # Carpeta para persistencia futura (CSV, JSON, etc.)
-    └── productos.json    # Archivo de ejemplo para guardar productos (opcional)
+preentrega_1/
+│
+├── main.py                 # Menú principal y flujo del programa
+├── producto.py             # Funciones para agregar, mostrar, buscar y eliminar productos
+├── utils.py                # Encabezado visual y menú con estilo
+├── README.md               # Documentación específica de la entrega
+│
+└── assets/                 # Capturas de pantalla y evidencias visuales
+    ├── 01_requisitos_generales.png
+    ├── 02_requerimientos_1.png
+    ├── 03_requerimientos_2.png
+    ├── 04_ejercicio_enunciado.png
+    ├── 05_consejos_docente.png
+    ├── menu_visual.png
+    └── ejemplo_busqueda.png
+
+ 
 ```
 
 
