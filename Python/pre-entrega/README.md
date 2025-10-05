@@ -47,6 +47,24 @@ La consigna solicitaba implementar las siguientes funcionalidades:
 - **Eliminar producto**: Eliminar un producto por su numero ID de la lista.
 - **Salir**: Finaliza el programa.
 
+- Menú visual con emojis y bordes
+- Validación de entradas vacías y numéricas
+- Separación de funciones en archivos:
+  - `main.py`: flujo principal y menú
+  - `producto.py`: lógica de gestión de productos
+  - `utils.py`: encabezado y menú visual
+
+📸 Ejemplo del menú visual:
+
+![Menú visual del sistema](assets/menu_visual.png)
+
+📸 Ejemplo de búsqueda de productos:
+
+![Ejemplo de búsqueda](assets/ejemplo_busqueda.png)
+
+---
+
+
 ## 🎨 Estética en consola
 
 Este sistema utiliza **emojis Unicode** para mejorar la experiencia visual en consola. Los íconos se agregan directamente en el código como parte de los mensajes, sin necesidad de instalar librerías externas.
