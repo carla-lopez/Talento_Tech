@@ -33,38 +33,22 @@ Este curso en Talento Tech me permitió profundizar en :
 🗂️ Estructura del Repositorio
 A continuación se detallan los módulos que componen este portafolio:
 
-Módulo
 
-Estado
-
-Descripción Técnica
-
-Tecnologías
-
-🔹 Pre-entrega 1
-
-✅ Completado
-
-Gestión en Memoria RAM.
-
-
-
+Módulo: 🔹 Pre-entrega 1
+Estado: ✅ Completado
+Descripción Técnica: Gestión en Memoria RAM.
 Sistema básico con menú interactivo. Uso de listas, bucles while/for, validaciones de entrada y funciones modulares.
-
-Listas Funciones Validaciones
-
-🔹 Entrega Final
-
-🚀 Nuevo
-
-Gestión con Persistencia (MySQL).
+Tecnologías: Listas Funciones Validaciones
 
 
+Módulo: 🔹 Entrega Final
 
+Estado: 🚀 Nuevo
+
+Descripción Técnica: Gestión con Persistencia (MySQL).
 Evolución del sistema anterior. Implementa un CRUD completo conectado a base de datos real, interfaz coloreada y manejo de excepciones.
 
-MySQL Connector Colorama SQL
-
+Tecnologías: MySQL Connector Colorama SQL
 
 
 🎨 Experiencia de Usuario (UX) en Consola
