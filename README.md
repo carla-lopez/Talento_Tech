@@ -1,43 +1,83 @@
 # Talento_Tech
  Proyectos de Tester QA de Talento tech
 
-███████╗███████╗████████╗███████╗██████╗      ██████╗  ██████╗ ██████╗ ███████╗ ██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗    ██╔════╝ ██╔═══██╗██╔══██╗██╔════╝ ███████╗█████╗     ██║   █████╗  ██████╔╝    ██║  ███╗██║   ██║██████╔╝█████╗
-╚════██║██╔══╝     ██║   ██╔══╝  ██╔═══╝     ██║   ██║██║   ██║██╔═══╝ ██╔══╝
-███████║███████╗   ██║   ███████╗██║         ╚██████╔╝╚██████╔╝██║     ███████╗ ╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝          ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝
+<div align="center">
+<pre>
+███████╗███████╗████████╗███████╗██████╗
+██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗
+███████╗█████╗     ██║   █████╗  ██████╔╝
+╚════██║██╔══╝     ██║   ██╔══╝  ██╔══██╗
+███████║███████╗   ██║   ███████╗██║  ██║
+╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+</pre>
+<h1>🛒 Sistema de Gestión — Python & QA 🧪</h1>
+<h3>🎓 Repositorio del Curso — Talento Tech</h3>
+
+</div>
+
+📄 Descripción General
+Este repositorio reúne todas las entregas, pre-entrega y proyectos realizados durante el curso de Python y el tramo de Tester QA
+
+El objetivo es evidenciar la evolición técnica,pasando de la manipulación de estructuras de datos básicas en memoria (Listas/Diccionarios) a la persistencia profesional de datos (Bases de Datos Relacionales), aplicando siempre buenas prácticas de código y documentación.
+
+👩‍💻 Sobre mí
+
+¡Hola! Soy Carla. 👋
+Estudiante en la carrera tecnico en programación en la UTN. En este repositorio encontraran dos programas que logran temas como:  administración de sistemas, scripting y visualización técnica. Me interesa construir herramientas útiles,bien documentadas y pensadas para escalar.
+
+Este curso en Talento Tech me permitió profundizar en :
+- 🐍Python Scripting: Automatización y lógica de backend.
+- 🗄️ Bases de Datos: Integración con MySQL.
+- 🧪 Testing: Validación y buenas prácticas de QA.
+
+🗂️ Estructura del Repositorio
+A continuación se detallan los módulos que componen este portafolio:
 
 
-  🛒 Sistema de Gestión Básica de Productos — Python & QA 🧪
+Módulo      |            Estado          |               Descripción Técnica                 |         Tecnologías
 
-# 🎓 Repositorio del Curso — Python & Tester QA
+🔹Pre-         ✅ Completado                 Gestión de Memoria RAM                             Listas  Funciones  Validaciones
+entrega 1                                    Sistema básico con menú interactivo.
+                                             Uso de listas,bucles while/for,
+                                             validaciones de entrada y funciones modulares.
+ 
+🔹 Entrega     🚀 Nuevo                      Gestión con Persistencia(MySQL)                     MySQL Connector Colorama SQL
+  Final
+                                              Evolución del sistema anterior.
+                                              Implementa un CRUD completo conectado a base
+                                              de datos real,interfaz coloreada y manejo de excepciones
 
-Este repositorio reúne todas las entregas, preentregas y proyectos realizados durante el curso de Python y el tramo de Tester QA. Está organizado por módulos, con documentación clara, ejemplos prácticos y capturas que evidencian el proceso de aprendizaje.
 
-## 👩‍💻 Sobre mí
+🎨 Experiencia de Usuario (UX) en Consola
+Ambos proyectos destacan por cuidar la interacción con el ususario en la terminal, utilizando ayudas visuales para facilitar la lectura.
 
-Soy Carla, apasionada por la administración de sistemas, scripting y visualización técnica. Me interesa construir herramientas útiles, bien documentadas y pensadas para escalar. Este curso me permitió profundizar en Python, automatización y buenas prácticas de testing, conectando teoría con práctica en cada entrega.
+1. Sistema de Emojis
 
-## 🐍 Python — Entregas y Preentregas
+Se utilizan íconos Unicode para feedback inmediato sin necesidad de librerías pesadas:
 
-### 🔹 Preentrega 1
-- **Tema**: estructuras de control, listas, funciones
-- **Descripción**: desarrollo de un sistema básico con menú interactivo  
-- ![Requisitos de la actividad](assets/requisitos.png)
+✅ Confirmación de acciones exitosas.
 
-## 🎨 Estilo visual y uso de íconos
+❌ Alertas de errores o entradas inválidas.
 
-Este sistema utiliza **emojis Unicode** para mejorar la experiencia visual en consola. Los íconos se agregan directamente en el código como parte de los mensajes, sin necesidad de instalar librerías externas.
+🛒, 📦, 🔍, 🗑️ Iconografía para las funciones del menú.
 
-Ejemplos:
+2.Colores (Entrega Final)
+En la entrega final se integró la librería colorama para resaltar estados críticos y mejorar la legibilidad del menú.
 
-- `✅` para confirmar acciones exitosas  
-- `❌` para indicar errores o entradas inválidas  
-- `🛒`, `📦`, `🔍`, `🗑️` para representar funciones del sistema  
-
-> ⚠️ Los emojis se muestran correctamente en la mayoría de terminales modernas. Si tu consola no los soporta, podés reemplazarlos por texto plano o símbolos ASCII.
-
-También podés integrar colores en consola usando la librería [`colorama`](https://pypi.org/project/colorama/):
-
-```bash
 pip install colorama
-```
 
+🛠️ Instalación General
+Para probar cualquiera de los dos proyectos:
+1. Clonar el repositorio:
+
+git clone [https://github.com/carla-lopez/Talento_Tech.git]
+
+2. Navegar a la carpeta deseada:
+
+cd entrega-final  # o cd pre-entrega 
+
+3. Seguir las intrucciones del README específica que encontrarás dentro de cada carpeta
+
+<div align="center">
+<sub>Desarrollado por Carla para Talento Tech - 2025</sub>
+</div>
