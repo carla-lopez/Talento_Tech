@@ -35,9 +35,12 @@ A continuación se detallan los módulos que componen este portafolio:
 
 
 Módulo: 🔹 Pre-entrega 1
+
 Estado: ✅ Completado
+
 Descripción Técnica: Gestión en Memoria RAM.
 Sistema básico con menú interactivo. Uso de listas, bucles while/for, validaciones de entrada y funciones modulares.
+
 Tecnologías: Listas Funciones Validaciones
 
 
